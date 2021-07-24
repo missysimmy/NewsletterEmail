@@ -33,7 +33,7 @@
 			border-spacing: 0;
 			font-family: serif, sans-serif;
 		}
-		@media screen and (max-width: 399.98px) {
+		@media screen and (max-width: 400px) {
 			.title {
 				width: 100%;
 			}
@@ -45,9 +45,8 @@
 				padding: 0 40px 0 20px!important;
 				text-align: center;
 			}
-			.haveyoursay {
+			.haveyoursay img {
 				width: 100%;
-				text-align: center!important;
 			}
 			.article-2 {
 				width: 100%;
@@ -59,17 +58,36 @@
 				padding: 10px 15px 10px 0!important;
 			}
 			.getintouch {
-				padding: 10px 15px 15px 0!important;
+				padding: 10px 120px 10px 80px!important;
 			}
 			.latestissue {
 				width: 100%;
 				float: left;
 			}
+			h1 {
+				text-align: center;
+				padding-right: 20px;
+				font-size: 35px!important;
+			}
+			.celebrate {
+				width: 80%;
+				text-align: center;
+				padding-left: 25px;
+			}
 			.magazine {
 				padding: 20px 10px 0 90px!important;
 				background-color: #f7f5f0!important;
 			}
+			.social-media {
+				width: 100%;
+				padding-right: 30px;
+			}
+			.unsubscribe {
+				width: 100%;
+				padding-right: 30px;
+			}
 		}
+		
 	</style>
 </head>
 <body>
@@ -133,8 +151,8 @@
 				<td>
 					<table width="100%">
 						<tr>
-							<td style="text-align: center;">
-								<img class="haveyourway" src="img/haveyoursay.png">
+							<td class="haveyoursay" style="text-align: center;">
+								<img src="img/haveyoursay.png">
 							</td>
 						</tr>
 					</table>
@@ -208,9 +226,9 @@
 									<tr>
 										<td class="latestissue" style="border: 1px solid #f2ba5b; text-align: center; background-color: #f2ba5b; color: #fff;">
 											<h1 style="font-size: 45px;">Our lastest issue is out now!</h1>
-											<p style="font-style: italic; color: #85773b;">celebrating 50 issues of style, sustainability and substance</p>
+											<p class="celebrate" style="font-style: italic; color: #85773b;">celebrating 50 issues of style, sustainability and substance</p>
 										</td>
-										<td style="display: inline-block; padding-right: 2px; background-color: #f4dee5;">
+										<td style="display: inline-block; padding-right: 2px; padding-top: 30px;">
 											<img class="magazine" src="img\magazine.jpg" width="160">
 										</td>
 									</tr>
@@ -223,7 +241,7 @@
 <!--SOCIAL MEDIA LIST-->
 			<tr>
 				<td>
-					<table width="100%">
+					<table class="social-media" width="100%">
 						<tr>
 							<td style="text-align: center; font-size: 10px; background-color: #f7f5f0; padding: 10px 0 10px 0;">
 								<p style="display: inline-block;">FACEBOOK</p>
